@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".numberAuth">
+
+
+    <TextView
+        android:layout_marginLeft="50dp"
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/phone_auth"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/savePhoneNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <EditText
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="@string/hint_phone_number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/savePhoneNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+
+        />
+
+    <com.hbb20.CountryCodePicker
+android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/countryCodePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:gravity="center"
+
+        app:ccp_autoDetectCountry="true"
+        app:ccp_showNameCode="true"
+        app:ccp_textSize="20dp"
+
+
+        app:layout_constraintStart_toStartOf="parent" >
+
+
+
+
+    </com.hbb20.CountryCodePicker>
+
+    <Button
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/savePhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+
+        android:onClick="DisplayMessage"
+        android:text="@string/conti_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Vendor_App</string>
+    <string name="log_in">लॉग इन करें</string>
+    <string name="name"><u> >नाम</u></string>
+    <string name="phone_auth">कृपया सत्यापन के लिए अपना फ़ोन नंबर दर्ज़ करे</string>
+    <string name="hint_phone_number">फ़ोन नंबर</string>
+    <string name="conti_button">जारी रखें</string>
+    <string name="haveYouReached">क्या आप अपने स्थान पर पहुंच गए है ?</string>
+    <string name="yes">हां</string>
+    <string name="no">नही</string>
+    <string name="recordSaved">आप की उपस्तिथि दर्ज की गई है।</string>
+    <string name="haveUPickGar">क्या आपका कल का कचरा संबंधित अधकारियों द्वार एकत्र किया गया है?</string>
+    <string name="infoSve">आप की प्रतिक्रिया दर्ज़ की जाएगी</string>
+
+</resources>

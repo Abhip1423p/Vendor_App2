@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".thanks_for">
+
+
+    <TextView
+        android:id="@+id/finalT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="आप की प्रतिक्रिया दर्ज़ की गई है, आपके सहयोग के लिऐ धन्यवाद"
+
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.465" />
+
+
+<Button
+    android:background="@drawable/no_btn"
+    android:layout_marginRight="90dp"
+ android:layout_marginLeft="90dp"
+    android:id="@+id/fB"
+    android:text="ok"
+    android:textSize="20dp"
+    android:layout_marginTop="90dp"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+android:onClick="exit"
+
+
+
+/>
+
+
+</LinearLayout>
